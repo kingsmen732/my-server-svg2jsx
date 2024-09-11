@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "svg2jsx",
-  "alias": ["deepfake.mithileshdev.co"],
+  "alias": ["convert.mithileshdev.co"],
   "builds": [{ "src": "packages/app/package.json", "use": "@vercel/next" }],
   "rewrites": [{ "source": "/(.*)", "destination": "/packages/app/$1" }]
 }
